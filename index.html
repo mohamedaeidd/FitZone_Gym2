@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitZone Gym - جيم فيت زون</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ===== شريط التنقل ===== -->
+    <header>
+        <nav>
+            <div class="logo">💪 FitZone</div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#pricing">الأسعار</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+                <li><button id="lang-toggle" class="lang-btn">🇬🇧 EN</button></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== القسم الرئيسي (Hero) ===== -->
+    <section id="home" class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;">
+        <div class="hero-content">
+            <h1>💪 <span>FitZone</span> Gym</h1>
+            <p>حيث تتحقق أهدافك اللياقية</p>
+            <a href="#trial" class="btn">احصل على جلسة تجريبية مجانية</a>
+        </div>
+    </section>
+
+    <!-- ===== من نحن ===== -->
+    <section id="about" class="about">
+        <h2>من نحن</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>في <strong>FitZone Gym</strong>، نؤمن بأن اللياقة البدنية ليست مجرد تمرين، بل هي أسلوب حياة. منذ تأسيسنا، ونحن نقدم بيئة رياضية متكاملة تجمع بين أحدث الأجهزة والمدربين المحترفين، لنساعدك على تحقيق أهدافك مهما كانت.</p>
+                <p>نقدم برامج تدريبية متنوعة تناسب جميع المستويات، من المبتدئين إلى المحترفين، في أجواء تحفيزية ومليئة بالطاقة الإيجابية. انضم إلينا وكن جزءاً من عائلة FitZone.</p>
+                <div class="about-stats">
+                    <div><span>+500</span> عضو</div>
+                    <div><span>+10</span> مدربين</div>
+                    <div><span>+20</span> برنامج تدريبي</div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=600" alt="عن الجيم" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== الخدمات ===== -->
+    <section id="services" class="services">
+        <h2>خدماتنا</h2>
+        <div class="services-grid">
+            <div class="service-card"><i class="fas fa-dumbbell"></i><h3>Gym</h3><p>أحدث الأجهزة الرياضية</p></div>
+            <div class="service-card"><i class="fas fa-user-tie"></i><h3>Personal Training</h3><p>تدريب شخصي مع مدربين محترفين</p></div>
+            <div class="service-card"><i class="fas fa-running"></i><h3>CrossFit</h3><p>تمارين عالية الكثافة</p></div>
+            <div class="service-card"><i class="fas fa-fist-raised"></i><h3>Boxing</h3><p>تمارين الملاكمة والدفاع عن النفس</p></div>
+            <div class="service-card"><i class="fas fa-heartbeat"></i><h3>Cardio</h3><p>تمارين القلب والأوعية الدموية</p></div>
+            <div class="service-card"><i class="fas fa-apple-alt"></i><h3>Nutrition Coaching</h3><p>استشارات غذائية مخصصة</p></div>
+        </div>
+    </section>
+
+    <!-- ===== الأسعار ===== -->
+    <section id="pricing" class="pricing">
+        <h2>خطط العضوية</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card"><h3>شهري</h3><p class="price">700 ج.م</p><p>عضوية شهرية كاملة</p><a href="#trial" class="btn-small">ابدأ الآن</a></div>
+            <div class="pricing-card popular"><h3>3 أشهر</h3><p class="price">1800 ج.م</p><p>وفر 300 ج.م</p><a href="#trial" class="btn-small">ابدأ الآن</a></div>
+            <div class="pricing-card"><h3>6 أشهر</h3><p class="price">3200 ج.م</p><p>وفر 1000 ج.م</p><a href="#trial" class="btn-small">ابدأ الآن</a></div>
+            <div class="pricing-card"><h3>سنوي</h3><p class="price">5500 ج.م</p><p>وفر 2900 ج.م</p><a href="#trial" class="btn-small">ابدأ الآن</a></div>
+        </div>
+    </section>
+
+    <!-- ===== نموذج الجلسة التجريبية ===== -->
+    <section id="trial" class="trial">
+        <h2>احصل على جلسة تجريبية مجانية</h2>
+        <p>املأ البيانات وسنرسل لك تفاصيل الحجز على واتساب</p>
+        <form id="trialForm">
+            <input type="text" id="trialName" placeholder="الاسم الكامل" required />
+            <input type="tel" id="trialPhone" placeholder="رقم الموبايل" required />
+            <select id="trialService" required>
+                <option value="">اختر الخدمة</option>
+                <option value="Gym">Gym</option>
+                <option value="Personal Training">Personal Training</option>
+                <option value="CrossFit">CrossFit</option>
+                <option value="Boxing">Boxing</option>
+                <option value="Cardio">Cardio</option>
+                <option value="Nutrition Coaching">Nutrition Coaching</option>
+            </select>
+            <button type="submit"><i class="fab fa-whatsapp"></i> إرسال على واتساب</button>
+        </form>
+        <div id="trialMessage" style="display:none; margin-top:20px; color:#00E676; font-weight:bold;">✅ تم إرسال طلبك! سيتم التواصل معك على واتساب خلال دقائق.</div>
+    </section>
+
+    <!-- ===== اتصل بنا ===== -->
+    <section id="contact" class="contact">
+        <h2>اتصل بنا</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt"></i> مدينة نصر، القاهرة</p>
+            <p><i class="fas fa-phone"></i> <a href="tel:+2010XXXXXXXX">010XXXXXXXX</a></p>
+            <p><i class="fas fa-clock"></i> 6 صباحاً – 12 منتصف الليل</p>
+            <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/2010XXXXXXXX" target="_blank">واتساب</a></p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.0!2d31.0!3d30.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAwJzAwLjAiTiAzMcKwMDAnMDAuMCJF!5e0!3m2!1sen!2seg!4v1234567890" width="100%" height="250" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- ===== التذييل ===== -->
+    <footer>
+        <p>&copy; 2026 FitZone Gym. جميع الحقوق محفوظة.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
